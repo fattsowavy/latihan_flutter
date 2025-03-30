@@ -22,7 +22,7 @@ class SampleText extends StatelessWidget {
             child: const Text("Hello World, Muh Fatwah Fajriansyah M. Welcome to Flutter"),
           ),
           Container(
-            height: 200,
+            height: 130,
             width: 300,
             margin: const EdgeInsets.all(20),
             decoration: BoxDecoration(
@@ -30,7 +30,7 @@ class SampleText extends StatelessWidget {
             ),
             child: Text(
                 "Hello World, Muh Fatwah Fajriansyah M. Welcome to Flutter",
-              textAlign: TextAlign.end,
+              textAlign: TextAlign.center,
               overflow: TextOverflow.clip,
               textScaleFactor: 1, // pake style fontsize aja
               style: TextStyle(
