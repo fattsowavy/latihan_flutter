@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:latihan_flutter/widgets/sample_container.dart';
 import 'package:latihan_flutter/widgets/sample_image.dart';
 import 'package:latihan_flutter/widgets/sample_image_circle.dart';
+import 'package:latihan_flutter/widgets/sample_listview.dart';
 import 'package:latihan_flutter/widgets/sample_text.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurpleAccent),
       ),
-      home: const SampleImageCircle(),
+      home: SampleListview(),
     );
   }
 }
