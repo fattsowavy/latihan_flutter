@@ -18,6 +18,7 @@ class SampleListview extends StatelessWidget {
       backgroundColor: Colors.blueAccent,
       ),
       body: ListView.builder(
+        padding: EdgeInsets.all(10),
           itemBuilder: (context, index) {
             return Container(
               color: Colors.purple[colorCodes[index]],
